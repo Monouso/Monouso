@@ -4,17 +4,16 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #ffffff; /* White background */
-  color: #333;
+  background-color: white; /* Pure white background */
+  color: #333; /* Dark gray text */
 }
 
 /* Header */
 header {
-  background-color: #ffffff; /* White header */
-  color: #000000; /* Black text */
-  padding: 20px 0;
+  background-color: white;
+  color: #333;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
 }
 
 header h1 {
@@ -29,14 +28,15 @@ header p {
 
 /* Navigation */
 nav {
-  background-color: #ffffff; /* White nav */
+  background-color: white;
   text-align: center;
   padding: 10px 0;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 nav a {
-  color: #000000; /* Black links */
+  color: #007bff; /* Subtle blue text for links */
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -51,14 +51,14 @@ main {
   padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #ffffff; /* White content */
+  background-color: white;
 }
 
 h2, h3 {
-  color: #000000; /* Black headings */
+  color: #000; /* Black headings */
 }
 
-/* Image Container for Overview Section */
+/* Image Container (Optional) */
 .image-container {
   display: flex;
   justify-content: center;
@@ -73,17 +73,18 @@ h2, h3 {
   width: 100%;
   height: auto;
   object-fit: contain;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  background-color: #fafafa;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background-color: white;
 }
 
 /* Footer */
 footer {
-  background-color: #ffffff; /* White footer */
-  color: #000000; /* Black text */
+  background-color: white;
+  color: #333;
   text-align: center;
   padding: 15px 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
 }
